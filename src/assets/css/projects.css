@@ -1,0 +1,75 @@
+.projects {
+  margin-bottom: 100px;
+}
+
+/* Slide style */
+.slide {
+  max-width: 340px;
+  height: 285px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  cursor: grab;
+  padding: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  background-color: #fff;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.slide:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Image inside slide */
+.slide img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.slide:hover img {
+  transform: scale(1.03);
+}
+
+/* Project info */
+.info-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.info-container a {
+  width: fit-content;
+  padding: 3px 2px;
+  border-bottom: 2px solid #000;
+  font-weight: 500;
+  transition: color 0.3s ease, border-color 0.3s ease;
+}
+
+.info-container a:hover {
+  color: #333;
+  border-color: #333;
+}
+
+/* Swiper height */
+.swiper-wrapper {
+  height: 320px;
+}
+
+/* Responsive */
+@media (max-width: 560px) {
+  .slide {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .swiper-wrapper {
+    height: auto;
+  }
+}
