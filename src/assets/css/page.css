@@ -133,6 +133,7 @@
   width: 100%;
 }
 
+
 .hello-btn {
   font-size: 18px;
   color: white;
@@ -445,11 +446,14 @@
 }
 
 .my-image-2 {
-  max-width: 350px;
-  max-height: 350px;
-  border-radius: 25px;
   width: 100%;
+  height: auto;
+  max-width: 350px;
+  border-radius: 25px;
+  display: block;
+  margin: 0 auto;
 }
+
 
 .hello-btn {
   font-size: 18px;
