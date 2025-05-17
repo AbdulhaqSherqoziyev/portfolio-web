@@ -4,6 +4,7 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Exp from "./Exp";
 import me from "../images/me.jpg";
+import me2 from "../images/me2.jpg";
 
 const Page = () => {
   return (
@@ -62,7 +63,7 @@ const Page = () => {
         <br />
         <div className="me-block">
           <div className="some-container">
-            <img src={me} alt="my image" className="my-image my-image-2" />
+            <img src={me2} alt="my image" className="my-image my-image-2" />
           </div>
           <div className="me-right">
             <div className="me-right-block">
