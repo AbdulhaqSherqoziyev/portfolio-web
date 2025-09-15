@@ -4,7 +4,7 @@ import Contact from "./Contact";
 import Projects from "./Projects";
 import Exp from "./Exp";
 import me from "../images/me.jpg";
-import me222 from "../images/me222.jpg";
+import me22 from "../images/me22.jpg";
 
 const Page = () => {
   return (
