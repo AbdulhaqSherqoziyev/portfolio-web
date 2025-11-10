@@ -65,7 +65,7 @@ const Contact = () => {
           <div className="info-block">
             <img src={instagram} alt="instagram icon" className="svg"/>
             <h5>Instagram</h5>
-            <a href="https://www.instagram.com/dasturchi.ts" className="color-2">@dasturchi.ts</a>
+            <a href="https://www.instagram.com/abdulhaq_sherqoziyev" className="color-2">@abdulhaq_sherqoziyev</a>
           </div>
         </div>
 
